@@ -1,0 +1,19 @@
+{
+  "type": "record",
+  "name": "ApacheLog",
+  "namespace": "openbus.schema",  
+  "doc": "Apache Log Event",
+  "fields": [
+    {"name": "host", "type": "string"},
+    {"name": "log", "type": "string"},
+    {"name": "user", "type": "string"},
+    {"name": "datetime", "type": "string"},
+    {"name": "request", "type": "string"},    
+    {"name": "status", "type": "string"},
+    {"name": "size", "type": "string"},
+    {"name": "referer", "type": "string"},
+    {"name": "userAgent", "type": "string"},
+    {"name": "session", "type": "string"},
+    {"name": "responseTime", "type": "string"}
+  ]
+}
